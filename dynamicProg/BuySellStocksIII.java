@@ -1,4 +1,3 @@
-package test.dynamicProg;
 
 import java.util.ArrayList;
 import java.util.List;
