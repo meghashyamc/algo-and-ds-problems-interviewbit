@@ -1,4 +1,3 @@
-package test.graphs;
 
 import java.util.HashMap;
 import java.util.LinkedList;
