@@ -1,17 +1,16 @@
 package main;
 
 import java.util.ArrayList;
+import binarysearch.SmallerOrEqualElements;
 
-import arrays.MaxDistance;
-import arrays.MoveZeroes;
 
 public class Main {
 
 	public static void main(String[] args) {
-		MoveZeroes moveZeroes = new MoveZeroes();
+		SmallerOrEqualElements smallerOrEqualElements = new SmallerOrEqualElements();
 
-		System.out.println(moveZeroes
-				.moveZeroesToEnd(formArrayListFromArray(new int[] { 1, 6, 1, 0, 9, 6, 2, 5, 6, 2, 10, 2, 0, 6  })));
+		System.out.println(smallerOrEqualElements
+				.getNumOfSmallerOrEqualElements(formArrayListFromArray(new int[] {1, 2, 5, 5 }), 3));
 
 	}
 
