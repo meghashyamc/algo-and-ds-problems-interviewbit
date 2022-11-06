@@ -2,16 +2,16 @@ package main;
 
 import java.util.ArrayList;
 
-import twopointers.MaxContinuousSeriesOfOnes;
+import stacksqueues.FirstNonRepeatingCharacter;
 
 
 public class Main {
 
 	public static void main(String[] args) {
-		MaxContinuousSeriesOfOnes maxContinuousSeriesOfOnes = new MaxContinuousSeriesOfOnes();
+		FirstNonRepeatingCharacter firstNonRepeatingCharacter = new FirstNonRepeatingCharacter();
 
-		System.out.println(maxContinuousSeriesOfOnes
-				.getMaxContinuousSeriesOfOnes(formArrayListFromArray(new int[] {1, 1, 0}), 2));
+		System.out.println(firstNonRepeatingCharacter
+				.getFirstNonRepeatingCharacters("jpxvxivxkkthvpqhhhjuzhkegnzqriokhsgea"));
 
 	}
 
